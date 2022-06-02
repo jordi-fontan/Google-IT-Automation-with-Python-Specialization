@@ -52,6 +52,42 @@ by the number at the top of its column). Fill in the blanks so that calling mult
 3 6 9
 
 
+```
+def multiplication_table(start, stop):
+	for x in range(start,stop+1):
+		for y in range(start,stop+1):
+			print(str(x*y), end=" ")
+		print()
+
+multiplication_table(1, 3)
+# Should print the multiplication table shown above
+```
+5.
+Question 5
+The counter function counts down from start to stop when start is bigger than stop, and counts up from start to stop otherwise. 
+Fill in the blanks to make this work correctly.
+```
+def counter(start, stop):
+	x = start
+	if start>stop:
+		return_string = "Counting down: "
+		while x >= stop:
+			return_string += str(x)
+			if start!=stop:
+				return_string += ","
+			x=x-1
+	else:
+		return_string = "Counting up: "
+		while x <= stop:
+			return_string += str(x)
+			if start<(stop-1):
+				return_string += ","
+			x=x+1
+	return return_string
+
+print(counter(1, 10)) # Should be "Counting up: 1,2,3,4,5,6,7,8,9,10"
+
+```
 
 
 
