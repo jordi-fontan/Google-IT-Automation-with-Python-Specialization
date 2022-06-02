@@ -2,7 +2,7 @@
 Total points 10
 #### 1. Question 1: 
 Fill in the blanks of this code to print out the numbers 1 through 7.
-```
+```python
 number = 1
 while number <= 7:
 	print(number, end=" ")
@@ -12,7 +12,7 @@ while number <= 7:
 #### 2. Question 2
 The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
 
-```
+```python
 def show_letters(word):
 	for l in word:
 		print(l)
@@ -25,7 +25,7 @@ show_letters("Hello")
 Complete the function digits(n) that returns how many digits the number has. For example: 25 has 2 digits and 144 has 3 digits. 
 Tip: you can figure out the digits of a number by dividing it by 10 once per digit until there are no digits left.
 
-```
+```python
 def digits(n):
 	count = 0
 	if n == 0:
@@ -52,7 +52,7 @@ by the number at the top of its column). Fill in the blanks so that calling mult
 3 6 9
 
 
-```
+```python
 def multiplication_table(start, stop):
 	for x in range(start,stop+1):
 		for y in range(start,stop+1):
@@ -66,7 +66,7 @@ multiplication_table(1, 3)
 Question 5
 The counter function counts down from start to stop when start is bigger than stop, and counts up from start to stop otherwise. 
 Fill in the blanks to make this work correctly.
-```
+```python
 def counter(start, stop):
 	x = start
 	if start>stop:
