@@ -4,7 +4,8 @@ As we mentioned earlier, strings and lists are both examples of sequences.
 Strings are sequences of characters, and are immutable. 
 Lists are sequences of elements of any data type, and are mutable. 
 **The third sequence type is the tuple.** Tuples are like lists, since they can contain elements of any data type.
-**But unlike lists, tuples are immutable**. They’re specified using parentheses instead of square brackets.
+**But unlike lists, tuples are immutable**. 
+**They’re specified using parentheses instead of square brackets.**
 
 You might be wondering why tuples are a thing, given how similar they are to lists.
 Tuples can be useful when we need to ensure that an element is in a certain position and will not change.
