@@ -68,9 +68,9 @@ security preventative measures. Today just about every business or industry reli
 to conduct day to day business. Can you imagine a company large or
 small operating without email, without functional computers or
 internet access? Take the case of a small company, it needs some technology if it wants
-to be able to access credit cards. Recent attacks like the want to cry
-crypto warm and large scale attacks using the Marai botnet, highlight the scope and
-scale of how security affects us all. It's something we need to take seriously. Because of our widespread dependence
-on technology digital security is more important than ever before and it's going
+to be able to access credit cards. Recent attacks like the want to cry crypto warm and large scale attacks using the Marai botnet, highlight the scope and
+scale of how security affects us all. It's something we need to take seriously.
+
+Because of our widespread dependence on technology digital security is more important than ever before and it's going
 to continue to have a growing impact on all industries and aspects of our lives. So let's make sure you're armed with
 the right tools to keep yourself and your future clients safe
